@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>English Listening Assessment</h2>
+      {/* <h2>English Listening Assessment</h2> */}
       <NameInput name={name} setName={setName} />
       {questions.map((q) => (
         <AudioQuestion
@@ -69,6 +69,7 @@ function App() {
         />
       ))}
       <SubmitButton
+        className="submit-button"
         disabled={!allAnswered}
         name={name}
         responses={responses}
