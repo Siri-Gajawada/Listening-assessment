@@ -5,9 +5,13 @@ import SubmitButton from "./components/SubmitButton";
 import './App.css'; // Add this line at the top
 
 
+
 const questions = [
   { id: 1, audioSrc: "/audios/q1.mp3" },
   { id: 2, audioSrc: "/audios/q2.mp3" },
+  { id: 3, audioSrc: "/audios/q3.mp3" },
+  { id: 4, audioSrc: "/audios/q4.mp3" },
+  { id: 5, audioSrc: "/audios/q5.mp3" },
 ];
 
 function App() {
