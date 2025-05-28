@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('Listening_home.png');
+  background-image: url('C:\Users\sirig\OneDrive\Desktop\listening-assessment\public\Listening_home.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;   /* stretch image to fit exactly */
@@ -91,14 +91,6 @@ textarea {
   resize: vertical;
 }
 
-/* .submit-button {
-  background-color: #16cc40; /* green, for example */
-  /* color: white;
-}
-
-.submit-button:hover:not(:disabled) {
-  background-color: #218838;
-} */ */
 
 input::placeholder {
   font-size: 14px;  /* or any size you want */
