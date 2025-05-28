@@ -11,7 +11,7 @@ function SubmitButton({ disabled, name, responses, onReset, setSubmitted }) {
         timestamp: now,
       }));
 
-      const response = await fetch("https://sheetdb.io/api/v1/6zdaokfg5ecxm", {
+      const response = await fetch("https://sheetdb.io/api/v1/rcg7cg5ha55ti", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

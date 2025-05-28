@@ -91,14 +91,14 @@ textarea {
   resize: vertical;
 }
 
-.submit-button {
+/* .submit-button {
   background-color: #16cc40; /* green, for example */
-  color: white;
+  /* color: white;
 }
 
 .submit-button:hover:not(:disabled) {
   background-color: #218838;
-}
+} */ */
 
 input::placeholder {
   font-size: 14px;  /* or any size you want */
