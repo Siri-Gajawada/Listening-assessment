@@ -15,7 +15,6 @@ function NameInput({ name, setName }) {
     );
   }
 
-  
-  
+
   export default NameInput;
   

@@ -1,0 +1,41 @@
+.thankyou-container {
+  height: 100vh;
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 1rem;
+}
+
+.thankyou-card {
+  background-color: #121212;
+  padding: 3rem;
+  border-radius: 14px;
+  width: 380px;
+  box-shadow:
+    0 0 12px rgba(201, 186, 25, 0.7),
+    0 0 24px rgba(176, 125, 16, 0.4);
+  color: #fff;
+  text-align: center;
+}
+
+.thankyou-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffcc00;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.thankyou-subtext {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+.orange-tick {
+  color: #ffcc00;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}

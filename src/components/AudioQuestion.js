@@ -29,10 +29,13 @@ function AudioQuestion({ id, audioSrc, response, onResponseChange, name }) {
   };
 
   return (
-    <div className="question-card">
-      <h3>Question {id}</h3>
-
-      <button onClick={handlePlay} disabled={playCount >= 2}>
+    <div className="bg-white rounded-lg shadow p-4 mb-6">
+      <h3 className="text-lg font-semibold mb-2">Question {id}</h3>
+      <button
+        onClick={handlePlay}
+        disabled={playCount >= 2}
+        className="mb-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+      >
         ▶️ Play Audio ({2 - playCount} plays left)
       </button>
 
@@ -45,6 +48,8 @@ function AudioQuestion({ id, audioSrc, response, onResponseChange, name }) {
         placeholder="Type your answer here..."
         value={response}
         onChange={(e) => onResponseChange(id, e.target.value)}
+        className="w-full p-3 mt-3 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+        rows={3}
       />
     </div>
   );
